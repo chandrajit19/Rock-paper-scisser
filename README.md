@@ -20,6 +20,6 @@ I have developed an interactive Rock, Paper, Scissors game using HTML, CSS, and 
 - JavaScript for implementing game logic and interactivity.
 
 *Project Link:*
-[RockPaperScissorsGame]([your-github-repository-link](https://chandrajit19.github.io/Rock_paper_scissers/))
+[RockPaperScissorsGame][(https://chandrajit19.github.io/Rock_paper_scissers/]
 
 By exploring this project, you will witness my commitment to delivering polished and functional web applications. I am excited to discuss how my skills and experience align with your team's needs.
