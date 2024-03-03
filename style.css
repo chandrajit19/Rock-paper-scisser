@@ -1,0 +1,64 @@
+       body{
+            margin: 0;
+            padding: 0;
+            background-color: rgb(15, 17, 17);
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            box-sizing:border-box;
+            display: flex ;
+            justify-content: center;
+        align-items: center;} 
+        
+        div{margin:30px;
+            padding: 5px;
+            border: 2px solid ;
+            width: 40vw;
+            height: 30vw;
+            text-align: center;
+            overflow: hidden;
+           
+            
+        }
+       div .title{
+            font-size: 30px;
+            font-weight: bold;
+        }
+       div .rock{
+            width: 88px;
+            height: 88px;
+            border:3px solid rgb(141, 143, 136);
+            border-radius: 50px;
+            
+        }
+       div .butt{
+            border:2px solid black;
+            border-radius: 50px;
+            cursor: pointer;
+            background-color: transparent;
+        }
+        div.butt:hover{
+            background-color: rgb(48, 45, 44);
+        }
+        .js_res{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding: 20px;
+        }
+       div .move-icon{
+            width: 30px;
+            height: 30px;
+            border: none;
+            border-radius: 50px;
+        }
+       div .reset-score{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 13px;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 14px;
+            padding: 4px;
+        }
+       div .reset-score:hover{
+            background-color: rgb(236, 136, 4);
+           
+        }

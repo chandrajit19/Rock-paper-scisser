@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rock_paper_scissers</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+         <p class="title">Rock Paper Scissers</p>
+
+    <button class="butt" onclick=" playGame('rock');
+
+"><img class="rock"
+            src="https://imgs.search.brave.com/qZZmq4GWFrg46afsE5XVFUzUBSwXz3stY6kijvXKLGQ/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9mYWN0/cy5uZXQvd3AtY29u/dGVudC91cGxvYWRz/LzIwMjAvMTEvaGFu/ZC0yNzA0MDEzXzEy/ODAuanBn"
+            alt="Rock"></button>
+
+
+    <button class="butt" onclick="  playGame('paper');
+
+"><img class="rock"
+            src="https://imgs.search.brave.com/qqpIus0hBBiRst9d6ibvvtpuVEQ83UVYueVKKxqBRQs/rs:fit:500:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA1LzU0Lzc4Lzg5/LzM2MF9GXzU1NDc4/ODk1MV9mTEF5NUM4/ZTliaGE0Y2FCVFdW/Sk42cnZURDBwRVZm/RS5qcGc"
+            alt="papaer"></button>
+
+
+    <button class="butt" onclick=" playGame('scissers');
+
+"><img class="rock"
+            src="https://imgs.search.brave.com/2nan5-bsen0Najb0ZF11EhpaOA9-iFoXbf8dh-XgU8U/rs:fit:500:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzAxLzM4LzI4LzE5/LzM2MF9GXzEzODI4/MTk4N195Y21CdGZU/bzlJZTRFdzIzT044/ZlhKcWw4NzlZUWhq/Ri5qcGc"
+            alt=""></button>
+
+    <p class="js_result js_res"></p>
+    <p class="js_move1"></p>
+    <p class="js_move2"></p>
+    <p class="js_score"></p>
+
+    <button class="reset-score" onclick="
+score.wins=0;
+score.losses=0;
+score.ties=0;
+updateScoreElement();
+">Reset Score</button>
+</div>
+   
+<script type="text/javascript"  src="script.js"></script>
+
+</body>
+
+</html>
